@@ -26,8 +26,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    sqlsingleton.cpp
+    sqlsingleton.cpp \
+    admindialog.cpp
 
 HEADERS += \
         mainwindow.h \
-    sqlsingleton.h
+    sqlsingleton.h \
+    admindialog.h
